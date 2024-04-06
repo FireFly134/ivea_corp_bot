@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+pandas = "*"
+Pillow = "==9.3.0"
+yadisk = "==1.2.15"
+psycopg2-binary = "*"
+python-dotenv = "*"
+reportlab = "*"
+mypy = "*"
+python-telegram-bot = "20.7"
+pymysql = "*"
+beautifulsoup4 = "*"
+types-pymysql = "*"
+pytest = "*"
+watchdog = "*"
+requests = "*"
+xlrd = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+flake8-import-order = "*"
+mypy = "*"
+pandas-stubs = "*"
+types-requests = "*"
+sqlalchemy-stubs = "*"
+coverage = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.11"

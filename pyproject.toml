@@ -1,0 +1,10 @@
+[tool.black]
+line-length=79
+
+[tool.mypy]
+warn_unused_configs = true
+pretty = true
+strict = true
+plugins = ["sqlmypy"]
+
+ignore_missing_imports = true
